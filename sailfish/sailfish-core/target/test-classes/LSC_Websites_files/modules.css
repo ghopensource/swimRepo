@@ -1,0 +1,258 @@
+﻿/* Generic Module Styles */
+.ModuleHeadTitle_Default h2,
+.ModuleHeadTitle_USAS h2,
+.ModuleHeadTitle_USASAlt h2
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	line-height: 21px;
+	margin: 3px 0px 10px 0px;
+	color: #006699;
+}
+
+.ModuleHeadTitle_USAS h2 {
+	margin: 8px 0px 0px 0px;
+}
+.ModuleHeadTitle_USASAlt2 h2
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	margin: 8px 0px 0px 0px;
+}
+
+/*#sidebar-container .ModuleHeadTitle_USAS h2
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #0099cc;
+	margin: 3px 0;
+}*/
+
+.ModuleBody_Default,
+.ModuleBody_USAS,
+.ModuleBody_USASAlt,
+.ModuleBody_USASAlt2
+{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+.ModuleBody_USASAlt
+{
+	color:White;
+	padding: 0px 18px 8px 18px;
+}
+
+.ModuleBody_USASAlt2
+{
+	background-image: url(../images/newsbox.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	color:White;
+	padding: 0px 18px 8px 18px;
+}
+
+.ModuleBody_USASAlt,
+.ModuleBody_USASAlt2 a
+{
+	color:#ffffff;
+}
+
+.ModuleBody_USASAlt a.newsTitleWithAbstract:link, 
+.ModuleBody_USASAlt a.newsTitleWithAbstract:visited, 
+.ModuleBody_USASAlt a.newsTitleWithAbstract,
+.ModuleBody_USASAlt2 a.newsTitleWithAbstract:link, 
+.ModuleBody_USASAlt2 a.newsTitleWithAbstract:visited, 
+.ModuleBody_USASAlt2 a.newsTitleWithAbstract
+{
+	color:#0099cc;
+}
+.ModuleBody_USASAlt a:hover,
+.ModuleBody_USASAlt2 a:hover
+{
+	color:#0099cc;
+}
+.ModuleBody_USASAlt a.newsTitleWithAbstract:hover
+.ModuleBody_USASAlt2 a.newsTitleWithAbstract:hover
+{
+	color:#cc0033;
+}
+.ModuleBody_USASAlt .newsTitleWithAbstract a:hover,
+.ModuleBody_USASAlt2 .newsTitleWithAbstract a:hover
+{
+	color:#0099cc;
+}
+
+.ModuleBody_USASAlt .sidebar-content-box,
+.ModuleBody_USASAlt2 .sidebar-content-box
+{
+		padding: 4px 8px 0px 18px;
+		margin: 0px -18px 0px -18px;
+}
+
+.ModuleBody_USASAlt .sidebar-content-box-ast,
+.ModuleBody_USASAlt2 .sidebar-content-box-ast
+{
+		padding: 4px 0px 0px 0px;
+		margin: 0px -18px 0px -18px;
+}
+
+.ModuleBody_USASAlt .sidebar-divider,
+.ModuleBody_USASAlt2 .sidebar-divider
+{
+	height: 10px;
+	background-color: #09c;
+	margin: 0px -18px 0px -18px;
+}
+.ModuleBody_USAS .sidebar-content-box,
+.ModuleBody_USAS .sidebar-content-box-ast
+{
+		background-color: #f2f2f2;
+}
+
+.ModuleBody_USASAlt .sidebar-content-box h2,
+.ModuleBody_USASAlt2 .sidebar-content-box h2,
+.ModuleBody_USASAlt .sidebar-content-box-ast h2,
+.ModuleBody_USASAlt2 .sidebar-content-box-ast h2
+{
+	color:White;
+}
+#sidebar-container .newsTitleWithAbstract
+{
+	font-size:12px;
+}
+#sidebar-container .newsTitle, #sidebar-container .newsTitleWithAbstract
+{
+	font-size:12px;
+}
+
+#sidebar-container .newsAbstract
+{
+	font-size:10px;
+}
+
+.ModuleBody_Default p,
+.ModuleBody_USAS p,
+.ModuleBody_USASAlt p,
+.ModuleBody_USASAlt2 p
+{
+	margin: 0px;
+}
+
+
+.ModuleBody_Default a,
+.ModuleBody_Default a:link,
+.ModuleBody_Default a:visited,
+.ModuleBody_USAS a,
+.ModuleBody_USAS a:link,
+.ModuleBody_USAS a:visited,
+.ModuleBody_USASAlt a,
+.ModuleBody_USASAlt a:link,
+.ModuleBody_USASAlt a:visited,
+.ModuleBody_USASAlt2 a,
+.ModuleBody_USASAlt2 a:link,
+.ModuleBody_USASAlt2 a:visited
+{
+	font-style: italic;
+}
+
+.shop-menu a, 
+.shop-menu a:link, 
+.shop-menu a:visited
+{
+	color: #666666;
+	font-style:normal;
+	text-transform:uppercase;
+}
+.shop-menu a:hover
+{
+	color: #c03;
+}
+.shop-menu
+{
+	font-size: 12px;
+	font-weight:bold;
+	margin: 3px 0;
+	font-style:normal;
+}
+
+.shop-menu p
+{
+	margin: 10px;
+}
+
+.ModuleHeadButtons_USAS
+{
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#sidebar-container .ModuleBody_Default,
+#sidebar-container .ModuleBody_USAS,
+#sidebar-container .ModuleBody_USASAlt,
+#sidebar-container .ModuleBody_USASAlt2
+{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+/* This puts a shaded box around the module when it's in the #featured-programs-wrapper DIV */
+#featured-programs-wrapper .ModuleBody_Default,
+#featured-programs-wrapper .ModuleBody_USAS,
+#featured-programs-wrapper .ModuleBody_USASAlt,
+#featured-programs-wrapper .ModuleBody_USASAlt2
+{
+	padding: 10px; 
+	background-color: #f2f2f2; 
+	margin-bottom: 8px;
+}
+
+
+
+/*.programbox .ModuleHeadTitle_USASAlt h2,
+.programbox-right .ModuleHeadTitle_USASAlt h2
+{
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	margin: 3px 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+	color: #0099cc;
+}
+
+.programbox-right .ModuleHeadTitle_USASAlt h2
+{
+	color: #cc0033;
+}
+*/
+
+.programbox .ModuleBody_USASAlt,
+.programbox-right .ModuleBody_USASAlt
+{
+	padding: 10px 20px;
+}
+
+.sidebar_padding
+{
+	padding: 0px 18px 0px 18px;
+}
+
+.sidebar_background
+{
+	background-color:#f2f2f2;
+}
+
+

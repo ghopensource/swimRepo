@@ -1,0 +1,2801 @@
+/* CSS Document */
+html
+{
+	min-height: 100%;
+	height: 100%;
+	margin-bottom: 1px;
+}
+/* Begin Typography & Colors */
+body
+{
+	background: #fff url(../images/backgrounds/background.jpg) center repeat-y;
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.body-ast
+{
+	background: #fff url(../images/AST/background.jpg) center repeat-y;
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.body-customizable
+{
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+a, a:link, a:visited
+{
+	color: #0099cc;
+	text-decoration: none;
+	font-style:italic;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+ul.primary-links li
+{
+	font-size: 11px;
+	line-height: 190%;
+	font-weight: 700;
+	float: left;
+	background-image: none;
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+ul.primary-links li a, ul.primary-links li a:link, ul.primary-links li a:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	margin: 0;
+	padding: 5px 14px 6px;
+	font-style:normal;
+}
+ul.menu-links li a, ul.menu-links li a:link
+{
+	color: #494949;
+	font-weight: 700;
+	text-decoration: none;
+	padding-left: 20px;
+	font-style:normal;
+}
+a.usasbutton,
+ul.button li a, ul.button li a:link, ul.button li a:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	background: #0099cc url(../images/buttons/button_arrow.gif) top right no-repeat;
+	margin: 0px;
+	padding: 3px 18px 3px 7px;
+	text-transform: uppercase;
+	height: 100%;
+	line-height: 16px;
+}
+
+ul.buttonleft li a, ul.buttonleft li a:link, ul.buttonleft li a:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	background: #0099cc url(../images/buttons/button_arrow_left.gif) top left no-repeat;
+	margin: 0px;
+	padding: 3px 7px 3px 18px;
+	text-transform: uppercase;
+	height: 100%;
+	line-height: 16px;
+}
+
+a.usasbutton:hover,
+ul.button li a:hover
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	background: #cc0033 url(../images/buttons/button_arrow_over.gif) top right no-repeat;
+	margin: 0px;
+	padding: 3px 18px 3px 7px;
+	text-transform: uppercase;
+	height: 100%;
+	line-height: 16px;
+}
+
+ul.buttonleft li a:hover
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	background: #cc0033 url(../images/buttons/button_arrow_left_over.gif) top left no-repeat;
+	margin: 0px;
+	padding: 3px 7px 3px 18px;
+	text-transform: uppercase;
+	height: 100%;
+	line-height: 16px;
+}
+
+a.usasbutton-red,
+ul.button-red li a, ul.button-red li a:link, ul.button-red li a:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	background: #c03 url(../images/buttons/button-red_arrow.gif) top right no-repeat;
+	margin: 0px;
+	padding: 3px 18px 3px 7px;
+	text-transform: uppercase;
+	height: 100%;
+	line-height: 16px;
+}
+
+a.usasbutton-red:hover,
+ul.button-red li a:hover
+{
+	display: block;
+	white-space: nowrap;
+	background: #09c url(../images/buttons/button-red_arrow_over.gif) top right no-repeat;
+	margin: 0px;
+	padding: 3px 18px 3px 7px;
+	color: #ffffff;
+	height: 100%;
+	line-height: 16px;
+}
+
+a.usasbutton, a.usasbutton:hover, a.usasbutton-red, a.usasbutton-red:hover
+{
+	font-size: 8pt;
+}
+
+a.usasbutton-left
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	background: #0099cc url(../images/buttons/button_arrow_left.gif) top left no-repeat;
+	margin: 0px;
+	padding: 3px 7px 3px 18px;
+	text-transform: uppercase;
+	height: 100%;
+	line-height: 16px;
+	font-size: 8pt;
+}
+
+a.usasbutton-left:hover
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	background: #cc0033 url(../images/buttons/button_arrow_left_over.gif) top left no-repeat;
+	margin: 0px;
+	padding: 3px 7px 3px 18px;
+	text-transform: uppercase;
+	height: 100%;
+	line-height: 16px;
+	font-size: 8pt;
+}
+
+#meta-info a, #meta-info a:link, #meta-info a:visited
+{
+	font-size: 11px;
+	color: #ffffff;
+	text-decoration: none;
+	font-style:normal;
+}
+#breadcrumb, .breadcrumb
+{
+	font-size: 12px;
+	background-color: #f2f2f2;
+	margin-top: 10px;
+	height: 22px;
+	padding: 7px 5px 3px 10px;
+}
+#breadcrumb-ast
+{
+	font-size: 12px;
+	background-color: transparent;
+	margin-top: 0px;
+	height: 22px;
+	padding: 7px 5px 3px 10px;
+}
+#breadcrumb .currentpage, #breadcrumb-ast .currentpage, .breadcrumb .currentpage
+{
+	font-style: italic;
+	font-weight: 700;
+}
+h1
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+    line-height: 24px;
+	font-size: 24px;
+	margin-bottom: 8px;
+	color: #006699;
+}
+h2
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #0099cc;
+	margin: 3px 0;
+}
+h3
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	color: #006699;
+	margin: 3px 0;
+}
+h4
+{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	color: #494949;
+	margin: 3px 0;
+}
+h5
+{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+	color: #494949;
+	margin: 3px 0;
+}
+h6
+{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	line-height: 18px;
+	color: #494949;
+	font-weight: 400;
+	margin: 3px 0;
+}
+.document h6
+{
+	text-transform:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	line-height: 18px;
+	color: #494949;
+	font-weight: 400;
+	margin: 3px 0;
+}
+
+h6 a.home-news-links:hover
+{
+	color: #0099cc;
+	font-style: italic;
+}
+
+#section-title
+{
+   	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+  	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	height: 24px;
+	margin-top: 10px;
+	background: #08c9e1 url(../images/subnav_header_bg.jpg) no-repeat;
+	padding: 4px 3px 4px 30px;
+}
+#section-title span
+{
+	padding-top: 5px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+}
+#footer-left
+{
+	font-size: 11px;
+	line-height: 18px;
+	float: left;
+	position: relative;
+	width: 669px;
+	height: 170px;
+	background-color: #f2f2f2;
+}
+#footer-right
+{
+	font-size: 12px;
+	line-height: 14px;
+	float: left;
+	width: 326px;
+	height: 170px;
+	background-color: #E6E6E6;
+}
+/* End Typography & Colors 
+ Begin Images */
+img
+{
+	border: none;
+}
+.footer-partners img
+{
+	float: left;
+}
+#shadow-container
+{
+	position: relative;
+	left: 3px;
+	top: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+#shadow-container .shadow2, #shadow-container .shadow3, #shadow-container .container
+{
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+#shadow-container .shadow1
+{
+	background: #F1F0F1;
+}
+#shadow-container .shadow2
+{
+	background: #DBDADB;
+}
+#shadow-container .shadow3
+{
+	background: #B8B6B8;
+}
+#shadow-container .container
+{
+	background: #ffffff;
+	border: 1px solid #848284;
+	padding: 0;
+}
+/* End Images 
+ Begin Lists 
+ End Lists 
+ Begin Structure */
+.clear-float
+{
+	clear: both;
+}
+
+.mainform
+{
+	height: 100%;
+}
+
+#wrapper
+{
+	width: 995px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+#body-container
+{
+	width: 975px;
+	margin: 0 auto;
+	margin-bottom: 245px;
+}
+#header-menu
+{
+	display: block;
+	position: absolute;
+	top: auto;
+	z-index: 999;
+	height: 132px;
+	width: 975px;
+	background: url(../images/navbar_bg.gif) repeat-x;
+}
+
+#logo
+{
+	float: left;
+	width: 124px;
+	height: 132px;
+}
+#meta-info
+{
+	width: 813px;
+	text-align: right;
+	height: 20px;
+	padding-top: 8px;
+	color: #FFF;
+	font-size: 11px;
+}
+.search-result-field
+{
+	float: left;
+	margin-bottom: 30px;
+}
+.search-links
+{
+	float: left;
+	margin-left: 20px;
+}
+.make-a-splash-img
+{
+	float: left;
+	margin-left: -10px;
+}
+.search-links a
+{
+	color: #333;
+	font-size: 9px;
+	text-decoration: underline;
+}
+#header-search
+{
+	width: 813px;
+	height: 32px;
+}
+#header-search-field input
+{
+	border: 1px solid #A9A9A9;
+	font-size: 11px;
+	color: #999;
+	width: 185px;
+	margin: 0 2px 0 0;
+}
+#header-image
+{
+	width: 975px;
+	height: 92px;
+	background: url(../images/header.jpg) no-repeat;
+}
+#header-image-ast
+{
+	width: 975px;
+	height: 274px;
+	background: url(../images/AST/header.jpg) no-repeat;
+}
+#home-flash-container
+{
+	width: 975px;
+	height: 560px;
+	background: url(../images/flash_shadow.jpg) bottom left no-repeat;
+}
+#home-left-column
+{
+	float: left;
+	width: 223px;
+	margin-right: 8px;
+}
+#home-middle-column
+{
+	float: left;
+	width: 436px;
+	margin-right: 8px;
+	background: url(../images/newsbox_bg.jpg) repeat-y;
+}
+#home-right-column
+{
+	float: left;
+	width: 300px;
+}
+#home-newsbox
+{
+	background: url(../images/newsbox.jpg) top no-repeat;
+	overflow: hidden;
+}
+.home-newsbox-stars
+{
+	height: 5px;
+	background: url(../images/news_stars.gif) no-repeat;
+	margin: 5px 0;
+}
+#home-teamcamps-wrapper
+{
+	background: url(../images/teamcamps_bg.jpg) repeat-y;
+}
+#home-teamcamps
+{
+	background: url(../images/teamcamps.jpg) top no-repeat;
+}
+#left-column
+{
+	float: left;
+	width: 316px;
+	position: relative;
+	padding-top: 30px;
+	background-color: #e6e6e6;
+}
+
+#left-column-narrow
+{
+	float: left;
+	width: 225px;
+	position: relative;
+	padding-top: 30px;
+	background-color: #e6e6e6;
+}
+
+#middle-column
+{
+	float: left;
+	width: 659px;
+	position: relative;
+}
+#middle-column-ast
+{
+	float: left;
+	width: 659px;
+	position: relative;
+}
+#middle-column-wide
+{
+	float: left;
+	width: 750px;
+	position: relative;
+}
+#middle-column-span
+{
+	float: left;
+	width: 975px;
+}
+.middle-padding
+{
+	padding-top: 30px;
+}
+.middle-padding-ast
+{
+	padding-top: 5px;
+}
+#right-column
+{
+	float: left;
+	width: 316px;
+	position: relative;
+	background-color: #e6e6e6;
+}
+#right-column-ast
+{
+	float: left;
+	width: 316px;
+	position: relative;
+	background-color: transparent;
+}
+.right-padding-ast
+{
+	margin-left:10px;
+	margin-right:20px;
+}
+#flash-container-header
+{
+	width: 975px;
+	height: 510px;
+	background: url(../images/flash_shadow.jpg) bottom left no-repeat;
+}
+#content-container
+{
+	padding: 8px 0px 0 10px;
+}
+#content-container h1
+{
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+#content-container h3
+{
+	margin-top: 0px;
+	text-transform: uppercase;
+}
+.right-text
+{
+	width: 50%;
+	float: left;
+	position: relative;
+	display: inline;
+}
+.divider
+{
+	width: 100%;
+	height: 2px;
+	background-color: #e6e6e6;
+	overflow: hidden;
+	margin: 15px 0;
+}
+.full-callout
+{
+	height: 264px;
+	margin-top: 10px;
+	background: url(../images/full_calloutbox.png) no-repeat;
+}
+.callout
+{
+	float: right;
+	width: 280px;
+	height: 255px;
+	background: url(../images/calloutbox.png) no-repeat;
+	margin: 5px -5px 10px 10px;
+}
+.callout-small
+{
+	float: right;
+	width: 144px;
+	height: 113px;
+	background: url(../images/calloutbox-small.png) no-repeat;
+	background-position: left bottom;
+	margin: 5px -5px 10px 10px;
+}
+.callout-grey
+{
+	float: right;
+	width: 200px;
+	position: relative;
+	display: inline;
+	background: #f4f4f4;
+	padding: 8px;
+}
+.grey-all-the-way
+{
+	width: 620px;
+	background: #f2f2f2;
+	padding: 10px 0 0 10px;
+}
+.callout-left
+{
+	float: left;
+	width: 250px; /* 280px */
+	height: 255px;
+	background: url(../images/calloutbox250.png) no-repeat;
+	margin: 5px 10px 10px 0;
+}
+.txt-left
+{
+	width: 412px;
+	float: left;
+	padding-right: 10px;
+}
+.callout .callout-text-box
+{
+	padding: 8px;
+}
+#sponsor-header
+{
+	height: 98px;
+	background: url(../images/sponsor_header.jpg) no-repeat;
+}
+#sponsor-header h2
+{
+	padding: 35px 0px 0px 15px;
+	color: #006699;
+}
+.swimmer-stats
+{
+	margin-top: -5px;
+	margin-bottom: 15px;
+	padding: 0;
+}
+.swimmer-stats li
+{
+	list-style: none;
+	color: #006699;
+	text-transform: uppercase;
+}
+.swimmer-stats span
+{
+	color: #000;
+}
+#sponsor-header img
+{
+	float: right;
+}
+.programbox,
+.programbox-right
+{
+	float: left;
+	width: 318px;
+	height: 180px;
+	margin-top: 10px;
+	background: url(../images/programbox.jpg) no-repeat;
+}
+.programbox-title
+{
+	text-align: center;
+	padding: 15px 0;
+}
+.programbox-content
+{
+	padding: 10px 20px;
+}
+#times-search-wrapper
+{
+	background-color: #e6e6e6;
+	overflow: hidden;
+	margin: 20px 0;
+	padding: 8px 8px 0 8px;
+}
+.times-search-item
+{
+	background-color: #f2f2f2;
+	margin-bottom: 8px;
+	padding: 10px;
+}
+#featured-programs-wrapper
+{
+	background-color: #e6e6e6;
+	overflow: hidden;
+	margin: 20px 0;
+	padding: 8px 8px 0 8px;
+}
+.featured-programs-item
+{
+	background-color: #f2f2f2;
+	margin-bottom: 8px;
+	padding: 10px;
+}
+.featured-programs-item img
+{
+	padding: 0 0 0 15px;
+	top: -5px;
+}
+.italics-links,
+.italics-links a
+{
+	font-style: italic;
+}
+#footer
+{
+	width: 995px;
+	height: 170px;
+	margin: 20px auto 0;
+	margin-top: -170px;
+}
+#footer-left-content
+{
+	padding: 10px 8px 0;
+}
+#footer-right-content
+{
+	padding: 10px;
+}
+#footer-sponsors
+{
+	width: 669px;
+	height: 92px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align:left;
+	vertical-align:middle;
+}
+.footer-partners
+{
+	overflow: hidden;
+	padding: 5px 0;
+}
+.footer-partners div
+{
+	padding-top: 8px;
+}
+#sidebar-container
+{
+	width: 300px;
+	margin: 0 auto;
+}
+.sidebar-divider
+{
+	height: 10px;
+	background-color: #09c;
+	margin: 0px -18px 0px -18px; 
+	width:300px;
+}
+.sidebar-content-box
+{
+	margin-bottom: 0px;
+	padding: 4px 8px 0px 18px;
+}
+.sidebar-content-box-ast
+{
+	margin-bottom: 0px;
+	padding: 4px 0px 0px 0px;
+}
+.blue-heading
+{
+	color: #0099cc;
+	text-transform: uppercase;
+}
+.blue-txt
+{
+	color: #0099CC;
+}
+.end-of-the-line
+{
+	height: 10px;
+}
+.sidebar-content-facebook
+{
+	margin-bottom: 8px;
+	background: #f2f2f2 url(../images/socons/facebook.gif) left 5px no-repeat;
+	padding: 4px 8px 0 80px;
+}
+.sidebar-content-swimnet
+{
+	margin-bottom: 8px;
+	background: #f2f2f2 url(../images/socons/swimnetwork.gif) left 8px no-repeat;
+	padding: 4px 8px 0 80px;
+}
+.sidebar-content-twitter
+{
+	margin-bottom: 8px;
+	background: #f2f2f2 url(../images/socons/twitter.gif) left 8px no-repeat;
+	padding: 4px 8px 0 80px;
+}
+#bc-div
+{
+	width: 70%;
+	float: left;
+}
+#socon-div
+{
+	width: 30%;
+	position: relative;
+	display: inline;
+	float: right;
+}
+#socons li
+{
+	margin-top: -14px;
+	display: inline;
+	list-style: none;
+	padding: 2px;
+	float: right;
+}
+.sidebar-content-rss
+{
+	margin-bottom: 8px;
+	background: #f2f2f2 url(../images/socons/rss.gif) left 5px no-repeat;
+	padding: 8px 8px 8px 80px;
+}
+.sidebar-content-rss span
+{
+	margin-top: 0;
+}
+#whatsnew-sidebar-on
+{
+	height: 27px;
+	padding-left: 8px;
+	background: url(../images/buttons/wnwp_on.jpg) no-repeat;
+}
+#whatsnew-sidebar-off
+{
+	height: 40px;
+	padding-left: 8px;
+	padding-top: 10px;
+	background: url(../images/buttons/wnwp_off.jpg) no-repeat;
+}
+#whatnew-sidebar-content
+{
+	background: url(../images/buttons/wnwp_bg.jpg) repeat-y;
+	padding: 8px 0px 8px 25px;
+}
+#whatnew-sidebar-content a
+{
+	font-size: 11px;
+}
+#shop-header
+{
+	height: 55px;
+	background: url(../images/shop/Shop_top.jpg) no-repeat;
+	padding: 5px 18px 5px 18px;
+}
+#shop-header-hidden
+{
+	height: 0px;
+	display:none;
+}
+#shop-content
+{
+	height: 207px;
+	background: url(../images/shop/shop_bg.jpg);
+}
+#shop-content-transparent
+{
+	height: 207px;
+}
+#shop-menu
+{
+	padding: 20px 0 20px 18px;
+}
+#shop-header h2
+{
+	font-size: 20px;
+	font-weight: 400;
+}
+#shoppingcart-content
+{
+	background-color: #F7F3F7;
+	padding-right: 15px;
+}
+
+/* End Structure 
+ Begin Navigation Structures */
+ul.primary-links
+{
+	z-index: 4;
+	margin: 0;
+	padding: 0;
+}
+ul.primary-links li a.active
+{
+	display: block;
+	white-space: nowrap;
+	background: url(../images/nav_on.jpg) repeat-x;
+	margin: 0;
+	padding: 5px 14px 6px;
+}
+ul.primary-links li a:hover
+{
+	display: block;
+	white-space: nowrap;
+	background: url(../images/nav_over.jpg) repeat-x;
+	margin: 0;
+	padding: 5px 14px 6px;
+}
+ul.menu-links
+{
+	position: relative;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+ul.menu-links li
+{
+	position: relative;
+	margin-top: 8px;
+	background-image: none;
+	list-style-type: none;
+	list-style-image: none;
+}
+ul.menu-links li a.collapsed
+{
+	background: url(../images/subnav_off.gif) left no-repeat;
+}
+ul.menu-links li a.expanded
+{
+	background: url(../images/subnav_on.gif) left no-repeat;
+}
+.headline-red span
+{
+	margin-left: 25px;
+}
+ul.menu-links li a.menu-active, .headline-red
+{
+	color: #c03;
+	font-style: italic;
+}
+
+ul.button li, ul.button-red li
+{
+	margin:12px 0px;
+	padding: 0px;
+	color:#ffffff;
+	font-size: 11px;
+	font-style: italic;
+	float: left;
+	background-image: none;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+ul.buttonleft li
+{
+	margin:12px 0px;
+	padding: 0px;
+	color:#ffffff;
+	font-size: 11px;
+	font-style: italic;
+	float: left;
+	background-image: none;
+	list-style-type: none;
+	list-style-image: none;
+}
+#breadcrumb a, #breadcrumb a:link, .breadcrumb a, .breadcrumb a:link,  #breadcrumb-ast a, #breadcrumb-ast a:link, #footer a, #footer a:link, #search-results a:link
+{
+	color: #666;
+	text-decoration: none;
+	font-style:normal;
+}
+a:hover, #search-results a:hover, ul.menu-links li a:hover, #meta-info a:hover, #breadcrumb a:hover, .breadcrumb a:hover, #breadcrumb-ast a:hover, #section-title a:hover, .shop-menu a:hover, #footer a:hover
+{
+	color: #c03;
+}
+.grey-stats
+{
+	background: #efedee;
+	padding: 8px;
+}
+.headline-white, h6 a.home-news-links, h6 a.home-news-links:link, #section-title a, #section-title a:link, #section-title a:visited
+{
+	color: #fff;
+	font-style:normal;
+}
+.headline-white h2
+{
+	text-transform: uppercase;
+}
+.headline-white h3
+{
+	text-transform: uppercase;
+}
+.program-images, .shop-images
+{
+	float: right;
+}
+#header-search-button, #header-search-field
+{
+	float: right;
+	vertical-align: top;
+}
+.ad-box, .flash_accordion, .accordion, #shop
+{
+	margin-bottom: 8px;
+	margin-top: -2px;
+}
+ul.button, ul.button-red
+{
+	margin: 0px;
+	padding: 0px;
+}
+ul.buttonleft
+{
+	margin: 0px;
+	padding: 0px;
+}
+.sidebox-login-label
+{
+	padding: 5px 0;
+	color: #0099cc;
+}
+
+.FeaturedModuleImageLeft
+{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.FeaturedModuleImageRight
+{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.dateLinkWidth
+{
+	width: 70px;
+	display: inline-block;
+}
+
+.newsDate
+{
+	display:inline;
+}
+.newsDateHidden
+{
+	display:none;	
+}
+.ellipse
+{
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	-ms-text-overflow:ellipsis;
+	overflow:hidden;
+	display:block;
+}
+
+.newsAbstract
+{
+	clear:both;
+	float:left;
+	margin: 2.5px 0px;
+	font-style:normal;
+}
+.newsAbstractHidden
+{
+	float:left;
+	margin: 2.5px 0px;
+	font-style:normal;
+	display:none;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ADDITIONAL STYLES TO SUPPORT CONVERSION FROM OLD WEBSITE - FEB 2010
+/* ---------------------------------------------------------------------------- */
+
+/* Popup Styles */
+.popupBody
+{
+	background-image: none;
+	background-color: #f2f2f2;
+	padding: 10px;
+	height: 100px;
+}
+.radTabPageView,
+.radTabPageViewPopup
+{
+    border: 1px solid #898c95;
+    background-color: #FFFFFF;
+    margin-top: -1px;
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.radTabPageViewPopup
+{
+}
+.radTabPageView img
+{
+    margin: 0;
+}
+.inputLabel
+{
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.inputLabelSmall
+{
+	font-size: 8pt;
+	font-weight: bold;
+	margin-bottom: 1px;
+}
+.inputLabel150
+{
+	font-weight: bold;
+	margin-bottom: 10px;
+	width:150px;
+	float:left;
+}
+.inputField
+{
+	margin-bottom:10px;
+	float:left;
+}
+.clearBoth
+{
+	clear: both;
+}
+
+/* Image Rotator Styles */
+.radRotateLeftBtn
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.radRotateRightBtn
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.radRotateImage
+{
+	cursor:pointer;
+}
+.radRotateImageCaption
+{
+	text-align:center;
+}
+
+
+/* DataGrid Styles */
+.DataGridStyle
+{
+	width: 100%;
+}
+
+.DataGridHeaderStyle
+{
+	background-color: #006699;
+	color: #ffffff;
+	font-size: 8pt;
+	font-weight: bold;
+}
+.DataGridHeaderStyle td
+{
+	padding: 2px;
+}
+.DataGridHeaderStyle a:link,
+.DataGridHeaderStyle a:visited
+{
+	color: #ffffff;
+	font-size: 8pt;
+	font-weight: bold;
+	font-style:normal;
+}
+.DataGridHeaderStyle a:hover
+{
+	text-decoration: underline;
+}
+
+.DataGridItemStyle
+{
+	font-size: 9pt;	
+	padding: 2px;
+	vertical-align:top;
+}
+
+.DataGridAlternatingItemStyle
+{
+	background-color: #e6e6e6;
+	font-size: 9pt;
+	padding: 2px;
+	vertical-align:top;
+}
+
+.DataGridPagerStyle
+{
+	background-color: #006699;
+	color: #ffffff;	
+	font-size: 8pt;
+	padding: 2px;
+	text-align: center;
+	font-weight: bold;
+}
+.DataGridPagerStyle a:link,
+.DataGridPagerStyle a:visited
+{
+	color: #ffffff;
+	font-size: 8pt;
+	font-weight: bold;
+	font-style:normal;
+}
+.DataGridPagerStyle a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+/* Grandfathered Styles */
+.Head
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-weight: bold;
+}
+.small,
+.small a:link,
+.small a:visited,
+.Small,
+.Small a:link,
+.Small a:visited
+{
+	font-size: 8pt;
+}
+
+.smallbold,
+.SmallBold
+{
+	font-size: 8pt;
+	font-weight: bold;
+}
+.smallitalics,
+.SmallItalic
+{
+	font-size: 8pt;
+	font-style:italic;
+}
+.smallred,
+.SmallRed
+{
+	font-size: 8pt;
+	color: #cc0033;
+}
+.Normal
+{
+	font-size: 10pt;
+}
+.normalbold,
+.NormalBold
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+.normalboldbig,
+.NormalBoldBig
+{
+	font-size: 12pt;
+	font-weight: bold;
+}
+.NormalError
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    color: #cc0033;
+    FONT-FAMILY:  Arial, Helvetica, sans-serif;
+}
+.normalred,
+.normalredbig,
+.NormalRed,
+.NormalRedBig
+{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #990033;
+}
+.normalredbig,
+.NormalRedBig
+{
+    font-size: 12pt;
+}
+.NormalLine
+{
+	background-color: #666666;
+	color:#666666;
+	border-style:none;
+	height:1;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.NormalLightLine
+{
+	background-color: #e6e6e6;
+	color:#e6e6e6;
+	border-style:none;
+	height:1;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.NormalLightLine1
+{
+	background-color: #e6e6e6;
+	color:#e6e6e6;
+	border-style:none;
+	height:1;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.SelectedTab
+{
+	background-color: #0099cc;
+	color: #ffffff;
+	font-size: 10pt;
+	font-weight: bold;
+
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-left: 5px;
+
+	background-position: right top; 
+	background-image: url(/images/TopRightWhiteRoundSm.gif); 
+	background-repeat: no-repeat;
+
+}
+.SelectedTab a:link
+{
+	color: #ffffff;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.SelectedTab a:hover
+{
+	text-decoration: underline;
+}
+.OtherTabs
+{
+	background-color: #006699;
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+
+
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-left: 5px;
+
+	background-position: right top; 
+	background-image: url(/images/TopRightWhiteRoundSm.gif); 
+	background-repeat: no-repeat;
+
+}
+.OtherTabs a:link
+{
+	color: #ffffff;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style:normal;
+}
+.OtherTabs a:hover
+{
+	text-decoration: underline;
+}
+/* Officials Tracking Styles */
+.OTSTabBody
+{
+	background-color: #006699;
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton
+{
+	font-size: 8pt;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+Input.CommandButton 
+{
+	font-size: 8pt;
+}
+
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link
+{
+    text-decoration: underline;
+    color: #666666;
+    font-weight: normal;
+}
+
+A.CommandButton:visited
+{
+    text-decoration: underline;
+    color: #666666;
+    font-weight: normal;
+}
+
+A.CommandButton:active
+{
+    text-decoration: underline;
+    color: #666666;
+    font-weight: normal;
+}
+
+A.CommandButton:hover
+{
+    text-decoration: none;
+    font-weight: normal;
+    color: #006699;
+}
+
+/* Styles for Search Forms */
+#content-container .search-form
+{
+	background-color: #f2f2f2;
+	border: solid 1px #e6e6e6;
+	overflow: hidden;
+	margin: 20px 0;
+	padding: 8px 8px 0 8px;
+}
+#content-container .search-form h2
+{
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #069;
+	margin: 0px 0px 10px 0px;
+}
+#content-container .search-form h3
+{
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	color: #0099cc;
+	margin-top: 15px;
+	text-transform: none !important;
+}
+#content-container .search-form .label,
+#content-container .search-form .label-no-indent
+{
+	margin-top: 5px;
+	margin-right: 5px;
+	vertical-align: top;
+	width: 160px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 10pt;
+	display:inline-block;
+	*display:inline; 
+	zoom:1;
+}
+#content-container .search-form .label-no-indent
+{
+	width:auto;
+}
+#content-container .search-form .field
+{
+	margin-top: 5px;
+	margin-right: 5px;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline; 
+	zoom:1;
+}
+
+#content-container .search-form input,
+#content-container .search-form select
+{
+	font-size: 12px;
+	font: Arial, Helvetica, sans-serif;
+	border: solid 1px #666666;
+	margin-bottom:2px;
+}
+#content-container .search-form .radiobutton input,
+#content-container .search-form .checkbox input
+{
+	border-width: 0px;	
+}
+
+#content-container .search-form .button
+{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 165px;
+}
+#content-container .search-form .button li
+{
+	margin-right: 10px;
+}
+
+
+/* Override the Web20 Telerik Style */
+HTML BODY .RadInput_Web20 .riTextBox
+{
+	font-size: 12px;
+	font: Arial, Helvetica, sans-serif;
+	border: solid 1px #666666 !important;
+	padding: 1px !important;
+}
+
+/* for Telerik TabStrips */
+.tab-page-view
+{
+    border: 1px solid #898c95;
+    background-color: #FFFFFF;
+    margin-top: -1px;
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+
+TextArea
+{
+	font-family: Arial;
+}
+
+/*
+CUSTOM ERROR LABEL STYLES FOR ADDRESS and CREDIT CARD USER CONTROLS ONLY
+DO NOT USE GOING FORWARD
+*/
+
+.ErrNormalVisible
+{
+	color:#cc0033;
+	font-size: 10pt;
+	display:inline;
+}
+
+.ErrNormalHidden
+{
+	color:#cc0033;
+	font-size: 10pt;
+	display:none;
+}
+
+
+.DarkGrayBackground
+{
+	background-color:#666666
+}
+
+.MediumGrayBackground
+{
+	background-color:#e6e6e6
+}
+
+.LightGrayBackground
+{
+	background-color:#f2f2f2
+}
+
+/* Styles for Club Recognition */
+.CRPSelectedTab
+{
+	background-color: #0099cc;
+	color: #ffffff;
+	font-size: 10pt;
+	font-weight: bold;
+
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-left: 5px;
+
+	background-position: left top; 
+	/*background-image: url(/images/TopLeftWhiteRoundSm.gif); */
+	background-repeat: no-repeat;
+
+}
+.CRPSelectedTab a:link
+{
+	color: #ffffff;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style:normal;
+}
+.CRPSelectedTab a:hover
+{
+	text-decoration: underline;
+}
+.CRPOtherTabs
+{
+	background-color: #006699;
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+
+
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-left: 5px;
+
+	background-position: left top; 
+	/*background-image: url(/images/TopLeftWhiteRoundSm.gif); */
+	background-repeat: no-repeat;
+	
+}
+.CRPOtherTabs a:link
+{
+	color: #ffffff;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style:normal;
+}
+.CRPOtherTabs a:hover
+{
+	text-decoration: underline;
+}
+.CRPHeader 
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:#006699; 
+	line-height: 18px; 
+	margin:0px;
+	font-weight:bold;
+}
+.CRPSmallHeader
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	color: #069;
+	font-weight:bold;
+}
+
+
+/* OMR styling */
+#content-container .omr-form h3
+{
+	text-transform: uppercase;
+	font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	color: #006699;
+	margin: 3px 0;
+
+}
+ul.omr-menu-links li a, ul.omr-menu-links li a:link
+{
+	color: #494949;
+	/*font-weight: 700; */
+	font-style: normal;
+	text-decoration: none;
+	padding-left: 0px;
+}
+ul.omr-menu-links
+{
+	position: relative;
+	margin-left: 5px;
+	padding-left: 20px;
+}
+ul.omr-menu-links li
+{
+	font-size:9pt;
+	position: relative;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-image: none;
+	list-style-type: none; 
+	list-style-image: none; /* url("/USASModules/OMRv2/images/help_bullet.gif")}*/
+}
+ul.omr-menu-links li a.menu-active
+{
+	color: #c03;
+	font-style: normal;
+}
+ul.omr-menu-links li a:hover
+{
+	color: #c03;
+}
+ul.omr-general-menu-links li
+{
+	margin-top: 0px;
+	margin-bottom:3px;
+}
+
+
+ul.omr-entry-menu-links li a, ul.omr-entry-menu-links li a:link
+{
+	font-style: normal;
+}
+ul.omr-entry-menu-links
+{
+	position: relative;
+	margin-left: 5px;
+	padding-left: 20px;
+}
+ul.omr-entry-menu-links li
+{
+	font-style: normal;
+	font-size:9pt;
+	list-style-type:none;
+	list-style-image: none;
+}
+.omr-leftnav
+{
+	background-color: #e6e6e6;
+	margin-bottom:0px;
+}
+.omr-error
+{
+	font-size: 9pt;
+	color: #c03;
+}
+.omr-label
+{
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight:bold;
+}
+.omr-small,
+.omr-small a:link,
+.omr-small a:visited
+{
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+.omr-small-italic
+{
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style:italic;
+}
+.omr-small-bold
+{
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+}
+.omr-normal-bold
+{
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+/* DataGrid Styles */
+.omrDataGridStyle
+{
+	width: 100%;
+}
+.omrDataGridHeaderStyle
+{
+	background-color: #006699;
+	color: #ffffff;
+	font-size: 9pt;
+	font-weight: bold;
+}
+.omrDataGridHeaderStyle td
+{
+	padding: 2px;
+}
+.omrDataGridHeaderStyle a:link,
+.omrDataGridHeaderStyle a:visited
+{
+	color: #ffffff;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style:normal;
+}
+.omrDataGridHeaderStyle a:hover
+{
+	text-decoration: underline;
+}
+
+.omrDataGridItemStyle
+{
+	font-size: 9pt;	
+	padding: 2px;
+	vertical-align:top;
+}
+
+.omrDataGridAlternatingItemStyle
+{
+	background-color: #e6e6e6;
+	font-size: 9pt;
+	padding: 2px;
+	vertical-align:top;
+}
+
+.omrDataGridPagerStyle
+{
+	background-color: #006699;
+	color: #ffffff;	
+	font-size: 9pt;
+	padding: 2px;
+	text-align: center;
+	font-weight: bold;
+}
+.omrDataGridPagerStyle a:link,
+.omrDataGridPagerStyle a:visited
+{
+	color: #ffffff;
+	font-size: 9pt;
+	font-weight: bold;
+}
+.omrDataGridPagerStyle a:hover
+{
+	text-decoration: underline;
+}
+
+/*  SideBar Callout Styles */
+.sidebar-callout-image
+{
+	margin: 0px 0px 0px -18px;
+	padding: 0px 10px 0px 0px;
+	width:90px; 
+	float: left;
+	color:inherit;
+	background-color:inherit;
+}
+
+.sidebar-callout-left-image
+{
+	height: 90px; 
+	width: 90px; 
+	float: left;
+	color:inherit;
+	background-color:inherit;
+}
+.sidebar-callout-content
+{
+	margin: 0px; 
+	color:inherit;
+	background-color:inherit;
+}
+.sidebar-callout-bottom-row
+{
+	vertical-align: middle; 
+	float: left;
+	color:inherit;
+	background-color:inherit;
+}
+.sidebar-callout-bottom-image
+{
+	float: left; 
+	padding: 0px 10px 0px 0px;
+	color:inherit;
+	background-color:inherit;
+}
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Printing Adjustments */
+@media print
+{
+	#breadcrumb, .breadcrumb
+	{
+		margin-top: 0px;
+	}
+	#breadcrumb-ast
+	{
+		margin-top: 0px;
+	}
+
+	#header-links-and-search
+	{
+		display: none;
+	}
+
+	#left-column
+	{
+		display: none;
+	}
+
+	#left-column-narrow
+	{
+		display: none;
+	}
+
+	#right-column
+	{
+		display: none;
+	}
+
+	#footer
+	{
+		height: 0px;
+		display: none;
+	}
+}
+
+/* image background style */
+.img-shadow {
+  float:left;
+  background: url(../Images/backgrounds/shadowAlpha.png) no-repeat bottom center !important;
+  background: url(../Images/backgrounds/shadow.gif) no-repeat bottom center;
+  margin: 0px 0px 0px 0px !important;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 2px 0px;
+  }
+  
+  .img-shadow-video {
+  float:left;
+ background: url(../Images/backgrounds/shadowAlpha.png) no-repeat bottom center !important;
+  background: url(../Images/backgrounds/shadow.gif) no-repeat bottom center;
+  margin: 0px 0px 0px 0px !important;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 6px 0px;
+  }
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: 0px 0px 3px 0px;
+  padding: 0px;
+  } 
+
+/* Active Reports */
+.ActiveReportViewer
+{
+	/* position:relative; */
+	/* z-index:-1; */
+}
+
+.SurveyOptionBackground
+{
+	width:100%; 
+	background-color:#CBEBF6;
+}
+
+/* Group Trips Modules */
+    .GroupTripSpacing
+    {
+        margin: 0px 10px 0px 10px;
+    }
+    .GroupTripModuleBorder
+    {
+    	border-color:#666666;
+    	border-style:solid;
+    	border-width:1px;
+    }
+    .GroupTripModuleTitle
+    {
+    	text-transform: uppercase;
+	    font-family: Klavika bold, Arial, Helvetica, sans-serif;
+	    font-size: 18px;
+	    line-height: 24px;
+	    color: #006699;
+	    margin: 3px 0;
+	    font-weight:bold;
+    }
+    .GroupTripModuleLabels
+    {
+    	margin:2.5px;
+	    vertical-align: top;
+	    width: 225px;
+	    text-align: right;
+	    font-weight: bold;
+	    font-size: 10pt;
+	    display:inline-block;
+	    *display:inline; 
+	    zoom:1;
+    }
+    .GroupTripModuleContent
+    {
+    	margin:2.5px;
+	    vertical-align: top;
+	    width:385px;
+	    display:inline-block;
+	    *display:inline; 
+	    zoom:1;
+    }
+
+/* ------------------------------------------------------------------------ */
+/* Deck Pass																*/
+/* ------------------------------------------------------------------------ */
+.DPHeaderImage
+{
+	position:absolute;
+	top: 0;
+	right:0;
+}
+
+.DPSocialBar
+{
+	width:647px;
+	height: 30px;
+	border: 1px solid #848284;
+	background-color: #f2f2f2;
+	margin-bottom: 5px;	
+	overflow:hidden;
+}
+.DPSocialConnect
+{
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	padding-top:8px;
+	height:30px;
+}
+.DPSocialConnectHover
+{
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	padding-top:8px;
+	height:30px;
+	text-decoration:underline;
+	background-color:#e6e6e6;
+}
+.DPTermsAndConditionsText
+{
+	width:700px;
+	height:400px;
+	overflow:auto;
+	padding:5px;
+	border:solid 1px #848284;
+	background-color:#ffffff;
+	line-height: 20px;
+}
+.DPSocialConnected
+{
+	text-align:left;
+	vertical-align:top;
+	padding:8px;
+}
+.DPOutstandingFriendRequests
+{
+	background:#cc0033;
+	color:#ffffff;
+	position:absolute;
+	padding-bottom:2px;
+	top:82px;
+	left:226px;
+	width:10px;
+	height:13px;
+	text-align:center;
+	font-size:8px;
+	font-weight:bold;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+}
+	
+.DPContainer
+{
+	width:648px;
+	float:left;
+}
+
+/* Avatar */
+.DPAvatar
+{
+	float:left;
+	width:96px;
+}
+.DPAvatarClickable
+{
+	float:left;
+	cursor:pointer;
+}
+
+/* Member Info */
+.DPMemberInfo
+{
+	float:right;
+	width:538px;
+	min-height:115px;
+}
+.DPMemberInfoHalf
+{
+	float:left;
+	width:205px;
+}
+.DPMemberInfoHalf2
+{
+	float:right;
+	width:320px;
+}
+.DPDateGreen
+{
+	color:#09912D;
+}
+.DPDateYellow
+{
+	color:#EDAD2D;
+}
+.DPDateRed
+{
+	color:#cc0033;
+}
+
+
+/* Club Logo */
+.DPClubLogo
+{
+	margin-top: -45px;
+	float:right;
+	width:180px;
+	height:90px;
+	overflow:hidden;
+}
+
+
+/* Deck Pass Patches */
+.DPPatchesContainer
+{
+	width:647px;
+	height: 250px;
+	float:left;
+	border: 1px solid #848284;
+	background-color: #f2f2f2;
+	overflow: auto;
+}
+.DPPatchImageWrapper
+{
+	float:left;
+	padding:5px;
+	cursor:pointer;
+}
+.DPPatchImage
+{
+	float:left;
+	width:115px;
+	height:115px;
+}
+
+.DPWindowShade
+{
+	padding:10px;
+	height:330px;
+	background-color:#dddddd;
+}
+
+.DPImxContainer
+{
+	height: 242px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #848284;
+	background-color: #f2f2f2;
+}
+.DPImxChart
+{
+	float:left;
+	width:280px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.DPImxTotalScore
+{
+	float:left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	height: 232px;
+	border-right: 2px solid #999999;
+	text-align: center;
+}
+.DPImxTotalScoreBox
+{
+	margin-top:40px;
+	text-align: center;
+	background-image: url(/USASModules/DeckPass/images/TotalScoreBox110x95.png);
+	background-repeat: no-repeat;
+	width: 99px;
+	height: 92px;
+}
+.DPImxTotalScoreBoxNum
+{
+	font-family:"Segoe UI", Arial, Helvetica, sans-serif;
+	padding-top:55px;
+	font-weight:bold;
+	font-size: 16pt;
+	color: #ffffff;
+}
+
+.DPBestTime
+{
+	width:420px;
+	float:left;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	height: 222px;
+	border-right: 2px solid #999999;
+	text-align: center;
+}
+
+.DPBestTimeNoRank
+{
+	margin-left: 140px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	height: 222px;
+	text-align: center;
+}
+
+.DPBestTimeNumbers
+{
+	margin-left:20px;
+	margin-top:20px;
+	padding-bottom:20px;
+}
+
+.DPBestTimeLabel
+{
+	clear: both;
+	float:left;
+	width:100px;
+	padding: 2px;
+	text-align:right;
+	font-weight: bold;
+	color: #666666;
+}
+.DPBestTimeValue
+{
+	float:left;
+	margin-left:10px;
+	padding: 2px;
+	font-weight: bold;
+	color: #666666;
+}
+
+.DPTimeSquare
+{
+	float:left;
+	margin-left:2px;
+	padding-top:20px;
+	width:40px;
+	height:40px;
+	border:solid 1px #666666;
+	background-color:#e6e6e6;
+	font-family:"Segoe UI", Arial, Helvetica, sans-serif;
+	font-size:40pt;
+	text-align: center;
+	vertical-align: middle;
+}
+.DPTimeSquareSeperator
+{
+	float:left;
+	margin-left:2px;
+	padding-top:20px;
+	width:20px;
+	height:40px;
+	font-family:"Segoe UI", Arial, Helvetica, sans-serif;
+	font-size:40pt;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.DPRankingSquares
+{
+	margin-top:10px;
+	float:right;
+	width:212px;
+}
+.DPRankingSquaresPopup
+{
+	margin-top:30px;
+	float:right;
+	width:212px;
+}
+.DPImxNational
+{
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin: 5px;
+	cursor: pointer;
+	background-image: url(/USASModules/DeckPass/images/NationalRank96x96.png);
+}
+.DPImxZone
+{
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin: 5px;
+	cursor: pointer;
+	background-image: url(/USASModules/DeckPass/images/ZoneRank96x96.png);
+}
+.DPImxLSC
+{
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin: 5px;
+	cursor: pointer;
+	background-image: url(/USASModules/DeckPass/images/LSCRank96x96.png);
+}
+.DPImxClub
+{
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin: 5px;
+	cursor: pointer;
+	background-image: url(/USASModules/DeckPass/images/ClubRank96x96.png);
+}
+.DPImxScore
+{
+	color: #ffffff;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	padding-right:7px;
+}
+
+.DPImxPanelBar .RadPanelBar .rpOut
+{
+	border-width: 0;
+}
+.DPImxPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarIMX645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPImxPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarIMXroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+.DPGoalsPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarGOALS645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPGoalsPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarGOALSroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPGoalsSponsorPanelBar
+{
+    background-image: url(/USASModules/DeckPass/images/WindowBarGOALS645x25.png);
+	height:25px;
+	border:solid 1px #999999;  
+}
+.DPGoalsSponsorPanelBar .rpOut .rpImage 
+{
+    padding: 0px; 
+}
+.DPGoalsSponsorPanelBarSelected
+{
+    background-image: url(/USASModules/DeckPass/images/WindowBarGOALSroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPGoalsSponsorPanelBarSelected .rpOut .rpImage
+{
+    padding: 0px; 
+}
+.DPBestTimesPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarBESTTIMES645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPBestTimesPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarBESTTIMESroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+.DPLogBookTimesPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarLOGBOOK645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPLogBookTimesPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarLOGBOOKSroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+
+.DPMembershipPerksPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarPERKS645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPMembershipPerksPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarPERKSroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+} 
+
+.DPAwardPatchesPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarAWARDPATCHES645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPAwardPatchesPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarAWARDPATCHESroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+.DPTestResultsPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarTESTRESULTS645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPTestResultsPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarTESTRESULTSroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+/* This removes the blue line showing on the panel bar image of the Deck Pass panel bars*/
+.DPContainer .RadPanelBar .rpRootGroup .rpItem .rpLink .rpOut {
+    border-bottom-width: 0px;
+}
+
+
+.DPVccContainer
+{
+	height: 280px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #848284;
+	background-color: #f2f2f2;
+}
+.DPVccChart
+{
+	float:left;
+	width:386px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.DPVccTotalScore
+{
+	float:left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	height: 270px;
+	border-right: 2px solid #999999;
+	text-align: center;
+}
+.DPVccRankingSquares
+{
+	margin-top:0px;
+	float:right;
+	width:106px;
+}
+.DPVccTotalScoreBox
+{
+	margin-top:60px;
+	text-align: center;
+	background-image: url(/USASModules/DeckPass/images/TotalScoreBox110x95.png);
+	background-repeat: no-repeat;
+	width: 99px;
+	height: 92px;
+}
+.DPVccTotalScoreBoxNum
+{
+	font-family:"Segoe UI", Arial, Helvetica, sans-serif;
+	padding-top:55px;
+	font-weight:bold;
+	font-size: 16pt;
+	color: #ffffff;
+}
+.DPVccScore
+{
+	color: #ffffff;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	padding-right:7px;
+}
+.DPVccNational
+{
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin-left: 10px;
+	cursor: pointer;
+	background-image: url(/USASModules/DeckPass/images/NationalRank96x96.png);
+}
+.DPVccZone
+{
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin-left: 10px;
+	cursor: pointer;
+	background-image: url(/USASModules/DeckPass/images/ZoneRank96x96.png);
+}
+.DPVccLSC
+{
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin-left: 10px;
+	cursor: pointer;
+	background-image: url(/USASModules/DeckPass/images/LSCRank96x96.png);
+}
+
+.DPEducationOpportunitiesPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarEDUCATION645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}.DPEducationOpportunitiesPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarEDUCATIONroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+.DPRecentMeetsPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarRECENTMEETS645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPRecentMeetsPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarRECENTMEETSroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+.DPMemberCardPanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarMEMCARD645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPMemberCardPanelBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarMEMCARDroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+.DPVCCScorePanelBar
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarVCC645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+.DPVCCScoreBarSelected
+{
+	background-image: url(/USASModules/DeckPass/images/WindowBarVCCroll645x25.png);
+	height:25px;
+	border:solid 1px #999999;
+}
+
+.DPShowHiddenFriendsBar
+{
+	width:648px;
+	border-top:solid 1px #e6e6e6;
+	background-color: #f2f2f2;
+	height:20px;
+	padding-top:3px;
+	padding-left:3px;
+}
+.DPNewsFeedPatchDescLabel
+{
+	font-weight:bold;
+	font-style:italic;
+}
+.DPNewsFeedPatchDescDetails
+{
+	font-style:italic;
+}
+
+
+
+.DPLogBookIndicatorRow
+{
+	background-image: url(/USASModules/DeckPass/images/LogBookRowIcon.png);
+	height:20px;
+	width:20px;
+	padding: 0px 0px 0px 0px;
+}
+.DPLogBookIndicatorRow:hover
+{
+	background-image: url(/USASModules/DeckPass/images/LogBookRowText.png);
+	height:20px;
+	width:20px;
+}
+
+.DPOfficialTimeIndicatorRow
+{
+	background-image: url(/USASModules/DeckPass/images/OfficialTimeRowIcon.png);
+	height:20px;
+	width:20px;
+}
+.DPOfficialTimeIndicatorRow:hover
+{
+	background-image: url(/USASModules/DeckPass/images/OfficialTimeRowText.png);
+	height:20px;
+	width:20px;
+}
+
+.DPLogBookTimeSquare
+{
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:10px;
+	vertical-align: middle;
+	text-align: center;
+	background-color:#e6e6e6;
+	border:solid 1px #666666;
+	background-image: url(/USASModules/DeckPass/images/LogBookTimeSquareIcon.png);
+}
+.DPLogBookTimeSquare:hover
+{
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:10px;
+	vertical-align: middle;
+	text-align: center;
+	background-color:#e6e6e6;
+	border:solid 1px #666666;
+	background-image: url(/USASModules/DeckPass/images/LogBookTimeSquareText.png);
+}
+
+.DPOfficialTimeSquare
+{
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:10px;
+	vertical-align: middle;
+	text-align: center;
+	background-color:#e6e6e6;
+	border:solid 1px #666666;
+	background-image: url(/USASModules/DeckPass/images/OfficialTimeSquareIcon.png);
+}
+.DPOfficialTimeSquare:hover
+{
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:10px;
+	vertical-align: middle;
+	text-align: center;
+	background-color:#e6e6e6;
+	border:solid 1px #666666;
+	background-image: url(/USASModules/DeckPass/images/OfficialTimeSquareText.png);
+}
+
+
+/* Overrides for RadScheduler in the Education Opportunity Panel */
+.DPScheduler .rsMonthView div.rsWrap[style]   
+{  
+  height:13.4px !important;
+  top:1px;
+} 
+.DPScheduler .rsMonthView div.rsWrap.rsDateWrap[style]   
+{
+    top:0;
+}
+.DPScheduler .rsMonthView div.rsWrap div.rsApt[style]
+{
+    height:19px !important;
+}
+.DPScheduler div.rsShowMore[style]
+{ 
+    position:relative;
+    top:12px;
+    right:25px;
+    height:10px !important;
+}
+.DPScheduler div.rsHeader h2
+{
+    text-indent:0;
+}
+.DPScheduler .rsHeader
+{
+    text-align:center;
+}
+
+.DPScheduler .rsTodayCell .rsDateHeader
+{
+    font-weight:bold;
+    color: Maroon;
+}    
+.DPScheduler .rsArrowBottom, .DPScheduler .rsArrowTop, .DPScheduler .rsArrowLeft, .DPScheduler .rsArrowRight
+{ 
+    visibility: hidden !important; 
+}
+.RadGridExportToPdf
+{
+	float:right;
+	padding-left:30px;
+	font: 11px/16px Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	background-image:url(/Images/icons/pdf_icon.gif);
+	background-repeat:no-repeat;
+	text-transform: none;
+}
+
+
+.RadGrid_USASWrapHeader .rgHeader,
+.RadGrid_USASWrapHeader th.rgResizeCol
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+a.aspNetDisabled, a.aspNetDisabled:hover 
+{
+    color:gray;
+}
+
+
